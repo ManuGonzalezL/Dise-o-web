@@ -4,18 +4,423 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" 
+     referrerpolicy="no-referrer" />
     <title>Curriculum</title>
+    <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-    <h1>Curriculm de Manuel Gonzalez</h1>
-    <p><img src="santiago.jpg" alt=""></p>
-    <ul>
-        <a href="index.html"></a>
-        <li><a href="datospersonales.html">Datos personales</a></li>
-        <li><a href="experiencia.html">Experiencia </a></li>
-        <li><a href="idiomas.html">Idiomas</a></li>
-        <!--<p><button><a href="index.html"></a>Pagina Principal</button></p>-->
-       
-    </ul>
+    <!--MENU ENCABEZADO-->
+    <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Manuel</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#sobremi">SOBRE MI</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#curriculum">CURRICULUM</a></li>
+                    <li><a href="#portfolio">PORTFOLIO</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive">
+                <!--son los 3 botones-->
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!--SECCION INICIO-->
+    <section id="inicio" class="inicio">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="hero.png" alt="">
+            </div>
+            <h1>MANUEL GONZALEZ LEJONAGOITIA</h1>
+            <h2>Licenciado en Gestion de tecnologia de la Informacion - Experto HTML5/CSS</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION SOBRE MI-->
+    <section id="sobremi" class="sobremi">
+        <div class="contenido-seccion">
+            <h2>Sobre MI</h2>
+            <p><span>Hola, Soy Manu Gonzalez.</span>Soy un estudiante con una gran motivación
+            para seguir perfeccionando habilidades y crecer profesionalmente.
+             confió plenamente en mi capacidad de producir ideas, me gusta colaborar y trabajar en equipo. </p>
+
+             <div class="fila">
+                <!--datos personales-->
+                <div class="col">
+                    <h3>Datos Personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Cumpleaños</strong>
+                            23-02-2005
+                        </li>
+                        <li>
+                            <strong>Telefono</strong>
+                            
+                            +54 9 114438-3376
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            manucarapa123@gmail.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            www.github.com <!--poner el link de github-->
+                        </li>
+                        <li>
+                            <strong>Direccion</strong>
+                            Argentina, Esteban de Luca 5414
+                        </li>
+                        <li>
+                            <strong>Cargo</strong>
+                            <span>FREELANCE</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!--intereses-->
+                <div class="col">
+                    <h3>Intereses</h3>
+                    <div class="contenedor-intereses">
+                        <div class="intereses">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>JUEGOS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-headphones"></i>
+                            <span>MUSICA</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-sharp fa-solid fa-plane"></i>
+                            <span>VIAJAR</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-brands fa-apple"></i>
+                            <span>MAC OS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>DEPORTES</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-duotone fa-book"></i>
+                            <span>LIBROS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-car"></i>
+                            <span>AUTOS</span>
+                        </div>
+                        <div class="intereses">
+                            <i class="fa-solid fa-camera"></i>
+                            <span>CAMERA</span>
+                        </div>
+                    </div>
+                </div>
+             </div>
+             <button>
+                <i class="fa-solid fa-download"></i>
+                <a href="https://1drv.ms/w/s!AgTXhOO6xgpTggBcixG2lXJrOIZI?e=Qc7cpF" target="_blank">Descargar CV </a>
+                <span class="overlay"></span>
+             </button>
+        </div>
+    </section>
+
+    <!--SECCION SKILLS-->
+    <section id="skills" class="skills">
+        <div class="contenido-seccion">
+            <h2>Skills</h2>
+            <div class="fila">
+                <!--technical skills-->
+                <div class="col">
+                    <h3>Technical Skills</h3>
+                    <div class="skill">
+                        <span>JavaScript</span>
+                        <div class="barra-skill">
+                            <div class="progreso javascript">
+                                <span>64%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML & CSS</span>
+                        <div class="barra-skill">
+                            <div class="progreso htmlcss">
+                                <span>94%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Python</span>
+                        <div class="barra-skill">
+                            <div class="progreso python">
+                                <span>17%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>WordPress</span>
+                        <div class="barra-skill">
+                            <div class="progreso word">
+                                <span>80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Drupal</span>
+                        <div class="barra-skill">
+                            <div class="progreso drupal">
+                                <span>34%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--Professional Skills-->
+                <div class="col">
+                    <h3>Professional Skills</h3>
+                    <div class="skill">
+                        <span>Comunicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso comunicacion">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en Equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso tee"> <!--tee:trabajo en equipo-->
+                                <span>83%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Creatividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso creatividad">
+                                <span>75%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Dedicacion</span>
+                        <div class="barra-skill">
+                            <div class="progreso dedicacion">
+                                <span>69%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proyect Managment</span>
+                        <div class="barra-skill">
+                            <div class="progreso proyect">
+                                <span>55%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--SECCION CURRICULUM-->
+    <section id="curriculum" class="curriculum">
+        <div class="contenido-seccion">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Educacion</h3>
+                    <div class="item izq">
+                        <h4>Estudios</h4>
+                        <span class="casa">Colegio Santa Teresita del Niño Jesus</span>
+                        <span class="fecha">2018-2022</span>
+                        <p>Escuela secundaria ciclo superior en el Colegio Santa Teresita del Niño jesus.
+                            Bachiller con orientacion en comunicacion (2020-2022)
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>idiomas</h4>
+                        <span class="casa">Idiomas Aprendidos</span>
+                        <span class="fecha"></span>
+                        <p>
+                            Español/Ingles/Ruso
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Datos de Interes</h4>
+                        <span class="casa">Hobbies</span>
+                        <span class="fecha"></span>
+                        <p>
+                            Me gusta diseñar y programar paginas web. Hice un curso de Desarrollo Web
+                        </p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia Laboral</h3>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">CorreaLibre</span>
+                        <span class="fecha"></span>
+                        <p>CorreaLibre es una empresa de Tecnología que facilita por medio de su aplicación,
+                        que paseadores seguros y confiables encuentren personas que requieran pasear a su perro.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">CorreaLibre</span>
+                        <span class="fecha">2023-2028</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis provident maxime 
+                        et omnis soluta cumque saepe consequatur inventore delectus, 
+                        odio eligendi natus consequuntur, ducimus quas sequi deleniti, sed labore dolores.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Front Developer</h4>
+                        <span class="casa">CorreaLibre</span>
+                        <span class="fecha">2023-2028</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis provident maxime 
+                        et omnis soluta cumque saepe consequatur inventore delectus, 
+                        odio eligendi natus consequuntur, ducimus quas sequi deleniti, sed labore dolores.</p>
+                        <div class="conectord">
+                                <div class="circulod"></div>
+                                </div>
+                             </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION PORTFOLIO-->
+    <section id="portfolio" class="portfolio">
+        <div class="contenido-seccion">
+            <h2>PORTFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="p1.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="p2.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="p3.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="p4.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="p5.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="p6.jpg" alt="">
+                    <div class="overlay">
+                        <h3>Diseño Creativo</h3>
+                        <p>Fotografia</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--SECCION CONTACTO-->
+    <section id="contacto" class="contacto">
+        <div class="contenido-seccion">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!--FORMULARIO-->
+                <div class="col">
+                    <input type="text" placeholder="Tu Nombre y Apellido">
+                    <input type="text" placeholder="Numero de Telefono">
+                    <input type="text" placeholder="Correo electronico">
+                    <input type="text" placeholder="Tema">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
+                    <button>
+                        Enviar<i class="fa-sharp fa-solid fa-paper-plane"></i>
+                        <span class="overlay"></span>
+                    </button>
+                </div>
+                <!--MAPA-->
+                <div class="col">
+                    <img src="ubicacion.png" alt="">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-location-dot"></i>
+                                 Carapachay, Esteban de Luca 5414
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen-button"></i>
+                                 Contactanos: +15 11 4438-3376
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                 Email: manucarapa123@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-sharp fa-solid fa-circle-up fa-beat"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-snapchat"></i></a>
+        </div>
+    </footer>
 </body>
-</html>
+</html> 
