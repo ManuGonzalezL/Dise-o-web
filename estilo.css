@@ -268,7 +268,7 @@
 }
 
 
-.skills .skill .tee{
+.skills .skill .grupo{
     width: 83%;
 }
 
@@ -350,38 +350,6 @@
 }
 
 
-
-
-/*SECCION FOOTER*/
-
-footer{
-    background-color: #252A2E;
-    color: #fff;
-    padding: 50px 0 30px 0;
-    text-align: center;
-    position: relative;
-    width: 100%;
-}
-
-footer .redes{
-    margin-bottom: 20px;
-}
-
-footer .redes a{
-    color: #fff;
-    display: inline-block;
-    text-decoration: none;
-    border: 1px solid #fff;
-    border-radius: 100%;
-    width: 42px;
-    height: 42px;
-    line-height: 42px;
-    margin: 40px 5px;
-    font-size: 20px;
-}
-
-
-
 /*SECCION RESPONSIVE*/
 @media screen and (max-width:320px){
     #nav ul{
@@ -410,7 +378,7 @@ footer .redes a{
         width: 100%;
     }
     .sobremi .fila .col{
-        width: fit-content;
+        width: 100%;
 
     }
 
@@ -419,7 +387,6 @@ footer .redes a{
         width: 100%;
     }
     .skills .fila .col{
-        width: 100%;
         width: fit-content;
     }
     .skills .fila .col .barra-skill{
