@@ -8,10 +8,6 @@
 
 }
 
-html{
-    /*me permite dedslizar caudno hago clicks en los menus*/
-    scroll-behavior: smooth;
-}
 /*MENU*/
 .contenedor-header{
     background: #1e2326;
@@ -390,9 +386,11 @@ footer .redes a{
 @media screen and (max-width:320px){
     #nav ul{
         display: block;
+        width: 100%;
     }
     .nav-responsive{
         display: block;
+        width: 100%;
     }
     nav.responsive{
         display: block;
@@ -400,24 +398,29 @@ footer .redes a{
         right: 0;
         top: 75px;
         background-color: #252A2E;
-        width: 180px;
+        width: 100%;
     }
     nav ul{
         display: block;
+        width: 100%;
     }
     
     .sobremi .fila{
         display: block;
+        width: 100%;
     }
     .sobremi .fila .col{
         width: fit-content;
+
     }
 
     .skills .fila{
         display: block;
+        width: 100%;
     }
     .skills .fila .col{
         width: 100%;
+        width: fit-content;
     }
     .skills .fila .col .barra-skill{
         width: 100%;
@@ -425,19 +428,15 @@ footer .redes a{
 
     .curriculum .fila{
         display: block;
+        width: 100%;
     }
     .curriculum .fila .col{
-        width: 100%;
+        width: 90%;
     }
     .curriculum .fila .derecha{
         margin-left: 20px;
-        width: 100%;
     }
-    footer{
-        align-items: center;
-        width: 100%;
-        display: block;
-    }
+    
     }
 
 
